@@ -1,0 +1,7 @@
+package oop;
+
+public class Player {
+	int Number;
+	int diceNumber;
+	int location;
+}

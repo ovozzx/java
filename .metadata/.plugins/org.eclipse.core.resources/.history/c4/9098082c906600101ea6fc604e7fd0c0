@@ -1,0 +1,33 @@
+package oop;
+
+
+/** document
+ * <pre>
+ * 학생 한 명의 점수를 구하는 코드
+ * 여러 점수들의 합계를 구한다.
+ * 여러 점수들의 총 평균을 구한다.
+ * 여러 점수들 중에 가장 고점 점수를 구한다.
+ * 여러 점수들 중에 가장 최저점 점수를 구한다.
+ * </pre>
+ */
+public class Scores {
+	
+	public static void main(String[] args) {
+		int score1 = 100;
+		int score2 = 90;
+		int score3 = 80;
+		int score4 = 99;
+		
+		// 점수의 합계.
+		int sum = score1 + score2 + score3 + score4;
+		System.out.println("점수의 합계 : " + sum);
+		
+		// 점수의 평균.
+		double average = sum / 4d;
+		// 최고점 점수.
+		
+		// 최저점 점수.
+	}
+	
+
+}

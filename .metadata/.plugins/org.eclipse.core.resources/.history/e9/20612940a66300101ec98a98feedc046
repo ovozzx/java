@@ -1,0 +1,11 @@
+package hello_java_world;
+
+public class ExamDiv {
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 3;
+		double result = a / (double) b;
+		System.out.println(result);
+	}
+
+}

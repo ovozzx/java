@@ -1,0 +1,17 @@
+package _250721;
+
+public class practice_01 {
+	
+	public static void main(String[] args) {
+		int myAge = 23;
+		int limit = 15;
+		
+		if( myAge >= limit) {
+			System.out.println("영화를 관람할 수 있습니다.");
+		}
+		else {
+			System.out.println("영화를 관람할 수 없습니다.");
+		}
+	}
+
+}

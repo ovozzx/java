@@ -1,0 +1,7 @@
+package oop;
+
+public class Seat {
+	int price;
+	int type;
+	boolean isOnSale; // t : 판매중, f : 판매완료
+}

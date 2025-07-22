@@ -1,0 +1,9 @@
+package oop;
+
+public class Character {
+	String nickname;
+	int health;
+	int damage;
+	boolean isDead;
+	
+}

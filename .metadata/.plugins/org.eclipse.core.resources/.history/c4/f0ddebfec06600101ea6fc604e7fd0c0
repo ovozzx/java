@@ -1,0 +1,51 @@
+package oop;
+
+public class RaceGame {
+	public static void main(String[] args) {
+		
+		Player[] players = new Player[10];
+		// 플레이어수 3명보다 많을 때
+		players[0] = new Player();
+		players[0].Number = 1;
+		players[0].location = 1;
+		
+		players[1] = new Player();
+		players[1].Number = 2;
+		players[1].location = 1;
+		
+		players[2] = new Player();
+		players[2].Number = 3;
+		players[2].location = 1;
+		
+		while(players[0].location <= 100
+				&& players[1].location <= 100
+				&& players[2].location <= 100) {
+			System.out.println("===============");
+			players[0].location = players[0].dicePlay();
+			System.out.println("-------------------");
+			System.out.println(" 플레이어" + players[0].Number + ": " + players[0].location);
+			System.out.println(" 플레이어" + players[1].Number + ": " + players[1].location);
+			System.out.println(" 플레이어" + players[2].Number + ": " + players[2].location);
+			System.out.println("-------------------");
+			players[1].location = players[1].dicePlay();
+			System.out.println("-------------------");
+			System.out.println(" 플레이어" + players[0].Number + ": " + players[0].location);
+			System.out.println(" 플레이어" + players[1].Number + ": " + players[1].location);
+			System.out.println(" 플레이어" + players[2].Number + ": " + players[2].location);
+			System.out.println("-------------------");
+			players[2].location = players[2].dicePlay();
+			System.out.println("-------------------");
+			System.out.println(" 플레이어" + players[0].Number + ": " + players[0].location);
+			System.out.println(" 플레이어" + players[1].Number + ": " + players[1].location);
+			System.out.println(" 플레이어" + players[2].Number + ": " + players[2].location);
+			System.out.println("-------------------");			
+			if(players[0].location == players[1].location
+			   && players[1].location == players[2].location
+					) {
+				// 같은 위치 -> 먼저 도착
+			}
+
+			
+		}
+	}
+}

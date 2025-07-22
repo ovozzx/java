@@ -1,0 +1,15 @@
+package oop;
+
+public class Player {
+	int Number;
+	int diceNumber1;
+	int diceNumber2;
+	int diceNumber3;
+	int location;
+	
+	int dicePlay() {
+		diceNumber = (int) Math.random();
+		location += diceNumber;
+		return location;
+	}
+}

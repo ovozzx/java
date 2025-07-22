@@ -1,0 +1,29 @@
+package oop;
+
+public class Player {
+	int Number;
+	int diceNumber1;
+	int diceNumber2;
+	int diceNumber3;
+	int location;
+	
+	int dicePlay() {
+		diceNumber1 = (int) Math.random();
+		diceNumber2 = (int) Math.random();
+		diceNumber3 = (int) Math.random();
+		
+		if((diceNumber1 + diceNumber2 + diceNumber3) == 9
+			&& location == 1
+				) {
+			location = 10;
+		}
+		if(location % 17 == 0) {
+			location -= 6;
+		}
+		if(location % 23 == 0) {
+			location += 3;
+		}
+		//location += diceNumber;
+		return location;
+	}
+}

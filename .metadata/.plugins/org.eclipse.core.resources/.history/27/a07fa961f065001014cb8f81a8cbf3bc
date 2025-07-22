@@ -1,0 +1,10 @@
+package _250721;
+
+public class WordRelayGame {
+	public static void main(String[] args) {
+		
+		System.out.println("끝말잇기 게임!");
+		
+	}
+
+}

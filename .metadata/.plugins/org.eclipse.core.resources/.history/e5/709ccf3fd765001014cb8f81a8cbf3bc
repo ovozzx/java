@@ -1,0 +1,22 @@
+package _250721;
+
+import java.util.Scanner;
+
+public class Problem135 {
+	public static void main(String[] args) {
+		Scanner consoleInput = new Scanner(System.in);
+		int a = consoleInput.nextInt();
+		int b = consoleInput.nextInt();
+		
+		if(a < b) {
+			System.out.println("<");
+		}
+		else if(a > b) {
+			System.out.println(">");
+		}
+		else {
+			System.out.println("==");			
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package oop;
+
+public class RaceGame {
+	public static void main(String[] args) {
+		Player[] players = new Player[10];
+		players[0] = new Player();
+		players[0].Number = 1;
+		players[0].location = 0;
+	}
+}
