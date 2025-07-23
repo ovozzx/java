@@ -1,0 +1,27 @@
+package com.ktdsuniversity.edu.cartoon;
+
+
+/**
+ * 만화책
+ * 데이터 클래스 (기능 X)
+ */
+public class Cartoon {
+
+	private String name;
+	private boolean isRental;
+	private int rentalFee;
+	
+	public Cartoon(String name, boolean isRental, int rentalFee){ // 생성자는 모두 접근 가능해야하므로 public
+		this.name = name;
+		this.isRental = isRental;
+		this.rentalFee = rentalFee;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void printInformantion() {
+		System.out.println("%s / %s / %d" .formatted(this.name, this.isRental + "", this.rentalFee));
+	}
+}
