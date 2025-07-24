@@ -16,7 +16,7 @@ public class SimpleRpg {
 		//enemy.damage = 140;
 		//enemy.isDead = enemy.health <= 0;
 		
-		while(!player.isDead && !enemy.isDead) { // enemy가 other고 other가 this, this.
+		while(!player.getIsDead() && !enemy.getIsDead()) { // enemy가 other고 other가 this, this.
 			player.attackTo(enemy); // 디버깅 시 F5로 들어가면, this = player, other = enemy (id로 구분)
 			// int value = consoleInput.nextInt();
 			//enemy.health -= 140; attack의 결과를 알아야 함

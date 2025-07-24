@@ -10,6 +10,8 @@ public class Cartoon {
 	private String name;
 	private boolean isRental;
 	private int rentalFee;
+
+
 	
 	public Cartoon(String name, boolean isRental, int rentalFee){ // 생성자는 모두 접근 가능해야하므로 public
 		this.name = name;
@@ -23,5 +25,18 @@ public class Cartoon {
 	
 	public void printInformantion() {
 		System.out.println("%s / %s / %d" .formatted(this.name, this.isRental + "", this.rentalFee));
+	}
+	
+	public int getRentalFee() {
+		return this.rentalFee;
+	}
+	
+	public void setIsRental(boolean isRental) {
+		this.isRental = isRental;
+	}
+
+	public boolean getIsRental() {
+		// TODO Auto-generated method stub
+		return this.isRental;
 	}
 }

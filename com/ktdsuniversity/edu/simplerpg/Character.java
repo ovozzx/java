@@ -32,6 +32,10 @@ public class Character {
 		return this.nickname;
 	}
 	
+	public boolean getIsDead() {
+		return this.isDead;
+	}
+	
 	void attackTo(Character other) { // 파라미터는 값 반드시 전달 필요
 		// this : 메소드를 실행한 대상
 		int lucky = (int) Math.random() * 100; // 0~99 
@@ -66,4 +70,5 @@ public class Character {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
+	
 }

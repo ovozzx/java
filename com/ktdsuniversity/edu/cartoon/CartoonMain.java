@@ -15,14 +15,19 @@ public class CartoonMain {
 		playCartoon.printAllCartoons();
 		
 		playCartoon.rent("슬램덩크 1화");
+		playCartoon.printAllCartoons();
 		playCartoon.rent("슬램덩크 2화");
+		playCartoon.printAllCartoons();
 		playCartoon.rent("슬램덩크 3화");
+		playCartoon.printAllCartoons();
 		
 		playCartoon.returnBook("슬램덩크 1화");
+		playCartoon.printAllCartoons();
 		playCartoon.returnBook("슬램덩크 2화");
+		playCartoon.printAllCartoons();
 		playCartoon.returnBook("슬램덩크 3화");
+		playCartoon.printAllCartoons();
 	}
 }
 
-// 깃허브 옮기기
-// 코드 보면서 일일 학습일지 정리
+
