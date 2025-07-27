@@ -4,6 +4,7 @@ public class AnimalMain {
 	
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD:practice/mission/AnimalMain.java
 		Animal dogOne = new Animal("우유", "강아지", "멍멍");
 		dogOne.introduce();
 		dogOne.cry(); 
@@ -28,6 +29,11 @@ public class AnimalMain {
 		catThree.introduce();
 		catThree.cry(); 
 		
+=======
+		Animal dog = new Animal("우유", "강아지", "멍멍");
+		dog.introduce();
+		dog.cry(); 
+>>>>>>> 31259fd (250727):practice/src/practice/mission/AnimalMain.java
 	}
 
 }
